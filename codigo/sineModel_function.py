@@ -4,12 +4,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import get_window
 import os, sys
-sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../models/'))
+
 import utilFunctions as UF
 import sineModel as SM
 
-def main(inputFile='../../sounds/bendir.wav', window='hamming', M=2001, N=2048, t=-80, minSineDur=0.02,
-					maxnSines=150, freqDevOffset=10, freqDevSlope=0.001):
+def main(inputFile='../gaita.wav', window='hamming', M=1001, N=1024, t=-80, minSineDur=0.02,
+					maxnSines=100, freqDevOffset=10, freqDevSlope=0.001):
 	"""
 	Perform analysis/synthesis using the sinusoidal model
 	inputFile: input sound file (monophonic with sampling rate of 44100)
