@@ -49,15 +49,15 @@ def main(inputFile='../gaita.wav', window='hamming', M=1001, N=1024, t=-80, minS
 	plt.figure(figsize=(9, 6))
 
 	# frequency range to plot
-	maxplotfreq = 5000.0
+	maxplotfreq = 20000.0
 
 	# plot the input sound
 	plt.subplot(3,1,1)
 	plt.plot(np.arange(x.size)/float(fs), x)
 	plt.axis([0, x.size/float(fs), min(x), max(x)])
 	plt.ylabel('amplitude')
-	plt.xlabel('time (sec)')
-	plt.title('input sound: x')
+	plt.xlabel('tempo (segundos)')
+	plt.title('entrada: som da gaita')
 
 	# plot the sinusoidal frequencies
 	plt.subplot(3,1,2)
@@ -67,15 +67,15 @@ def main(inputFile='../gaita.wav', window='hamming', M=1001, N=1024, t=-80, minS
 		tfreq[tfreq<=0] = np.nan
 		plt.plot(frmTime, tfreq)
 		plt.axis([0, x.size/float(fs), 0, maxplotfreq])
-		plt.title('frequencies of sinusoidal tracks')
+		plt.title('frequências dos senos rastreados')
 
 	# plot the output sound
 	plt.subplot(3,1,3)
 	plt.plot(np.arange(y.size)/float(fs), y)
 	plt.axis([0, y.size/float(fs), min(y), max(y)])
 	plt.ylabel('amplitude')
-	plt.xlabel('time (sec)')
-	plt.title('output sound: y')
+	plt.xlabel('tempo (segundos)')
+	plt.title('saída: gaita sintetizada')
 
 	plt.tight_layout()
 	plt.ion()
