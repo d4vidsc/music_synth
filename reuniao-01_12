@@ -3,3 +3,14 @@
 -> HIPOTESE: EMULAR UM SOM DE GAITA. SERÁ QUE EU CONSIGO EMULAR O SOM DE GAITA?
 
 metodologia: como atacar o problema, resolver. comaprar o teste com a ferramenta e com som real
+
+
+** REUNIÃO GILSON 10/12/2020 - NOTAS **
+
+-> Enviar emails sondando professores Ricardo e Juliano para a banca OK
+-> Alterar começo e final da envoltória para zeraros "ruídos" do começo OK
+-> Adicionar fase à formação do sinal OK
+-> Tentar otimizar a escolha das frequências na FFT OK
+-> Trabalhar com extensão e supressão do sinal para alongar e estreitar a duração
+-> Tentar obter outras notas a partir desta primeira nota (e escrever a teoria em volta disso)
+-> TUDO PRONTO no domingo
