@@ -10,9 +10,7 @@ codigo/__pycache__
 
 .Rhistory
 
-codigo/utilfunction_compare.ipynb
-
-codigo/README.md
+utilfunction_compare.ipynb
 
 study_sineModel_function.ipynb
 
@@ -23,3 +21,5 @@ study_sineModelSynth.ipynb
 study_sineModel.ipynb
 
 emulacao_gaita_librosa.ipynb
+
+emulacao_gaita_notas.ipynb
