@@ -6,7 +6,8 @@ Neste repositório _online_ se encontram os códigos utilizados no TCC "Sintetiz
 # Organização do repositório
 
 ```
-codigo/
+codigo/ -> pasta com os codigos utilizados no trabalho
+
     sms-tools/ -> pasta com os códigos da ferramenta sms-tools
         |- dftModel.py -> funções de análise discreta de Fourier
         |- sineModel.py -> funções de análise e síntese do modelo senoidal
@@ -14,9 +15,12 @@ codigo/
         |- sineModel_function.py -> função principal para sintetização do som
         |- utilFunctions.py -> funções úteis para execução da sintetização
         |- gaita_sint.wav -> resultado final da sintetização do som
+
     emulacao/ -> pasta com códigos da emulação proposta pelo autor
         |- emulacao_gaita.ipynb -> jupyter notebook com todo o código de emulação
+
 resultados/ -> pasta com os áudios resultantes dos dois processos
+
     |- gaita_sint_sms-tools.wav -> áudio da sintetização pelo sms-tools
     |- gaita_emu_A.wav -> áudio da emulação da nota A (Lá)
     |- gaita_emu_B.wav -> áudio da emulação da nota B (Si)
